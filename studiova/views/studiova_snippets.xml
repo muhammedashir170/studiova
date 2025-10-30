@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="studiova_snippets" inherit_id="website.snippets">
+		<xpath expr="//snippets[@id='snippet_structure']" position="after">
+		 	<snippets class="o_panel_body" string="Custom Snippets">
+				<t t-snippet="studiova.studiova_banner" t-thumbnail="/studiova/static/description/icon.png" />
+				<t t-snippet="studiova.studiova_stats_and_facts" t-thumbnail="/studiova/static/description/icon.png" />
+
+			</snippets>
+		</xpath>
+	</template>
+</odoo>
